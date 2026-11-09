@@ -26,7 +26,6 @@ export default function Home() {
   const cardRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    document.documentElement.classList.add("motion-ready");
     const timer = window.setTimeout(() => setLoading(false), 850);
     let frame = 0;
     const updateScrollProgress = () => {
@@ -63,6 +62,8 @@ export default function Home() {
       }
       observer.observe(element);
     });
+    document.documentElement.classList.add("motion-ready");
+    updateScrollProgress();
     const socialSection = document.getElementById("connect");
     const socialObserver = socialSection
       ? new IntersectionObserver(
