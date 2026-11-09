@@ -138,7 +138,7 @@ export default function Home() {
           <div className="social-grid">
             <a className="social-link reveal" href="https://www.instagram.com/vs_rmr?psln=Yzg4Yjc1c3VzdDIz" target="_blank" rel="noreferrer"><span className="social-icon instagram"><Instagram /></span><span className="social-info"><b>Instagram</b><small>@vs_rmr</small></span><span className="arrow">↗</span></a>
             <a className="social-link reveal reveal-delay" href="https://www.facebook.com/share/1JsT9B5S6o/" target="_blank" rel="noreferrer"><span className="social-icon facebook"><Facebook /></span><span className="social-info"><b>Facebook</b><small>Jacob Escaño</small></span><span className="arrow">↗</span></a>
-            <a className="social-link reveal reveal-delay-2" href="mailto:hello@jacobescano.design"><span className="social-icon email">@</span><span className="social-info"><b>Say hello</b><small>hello@jacobescano.design</small></span><span className="arrow">↗</span></a>
+            <a className="social-link reveal reveal-delay-2" href="mailto:jacobromar310@gmail.com"><span className="social-icon email">@</span><span className="social-info"><b>Say hello</b><small>jacobromar310@gmail.com</small></span><span className="arrow">↗</span></a>
           </div>
         </section>
 
